@@ -9,7 +9,7 @@
 body {
   font-size: 1.2rem;
   font-family: "Work Sans", sans-serif;
-  min-height: 2000px;
+  /* min-height: 2000px; */
 }
 .hero {
   min-height: 100vh;
@@ -79,5 +79,8 @@ body {
   .simply-countdown > .simply-section {
     padding: 35px;
     margin: 3px;
+  }
+  #rifa {
+    font-size: 60px;
   }
 }

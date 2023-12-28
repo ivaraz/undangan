@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap");
+
 :root {
   --blue: #22f;
   --bg: #0a0a0a;
@@ -15,7 +17,7 @@ body {
   text-shadow: var(--shadow);
 }
 .hero h1 {
-  font-family: "Caveat", cursive;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 6rem;
 }
 .hero h4 {
@@ -44,7 +46,7 @@ body {
 }
 
 #rifa {
-  font-family: "Caveat", cursive;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 90px;
 }
 

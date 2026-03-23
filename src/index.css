@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+@theme {
+  /* Custom Color Palette: Sunda Gold & Earth */
+  --color-sage-50: #fdfcf8;
+  --color-sage-100: #f7f3e6;
+  --color-sage-200: #eee0bf;
+  --color-sage-300: #e4c891;
+  --color-sage-400: #d9ad60;
+  --color-sage-500: #cc8f36;
+  --color-sage-600: #ad7028;
+  --color-sage-700: #8a5323;
+  --color-sage-800: #714223;
+  --color-sage-900: #5d3620;
+
+  /* Custom Color Palette: Gold Accents */
+  --color-gold-50: #fffbf0;
+  --color-gold-100: #fff5d6;
+  --color-gold-200: #ffebad;
+  --color-gold-300: #ffde7a;
+  --color-gold-400: #ffcc47;
+  --color-gold-500: #fbb01b;
+  --color-gold-600: #df8e0e;
+  --color-gold-700: #b9690b;
+
+  /* Fonts */
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+
+  /* Custom Animations */
+  --animate-spin-slow: spin-slow 8s linear infinite;
+}
+
+/* Global Reset & Base Styles */
+body {
+  @apply bg-sage-50 text-sage-900 scroll-smooth antialiased;
+  font-family: var(--font-sans);
+  background-image: radial-gradient(#cbd5e1 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Typography Overrides */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-serif);
+}
+
+/* Hero Background Zoom Animation */
+@keyframes hero-zoom {
+  0% {
+    transform: scale(1.05);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1.05);
+  }
+}
+
+.hero-bg-zoom {
+  animation: hero-zoom 20s ease-in-out infinite;
+}
+
+/* Audio Player Spin Animation */
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-sage-50;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-sage-300 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-sage-400;
+}

@@ -34,7 +34,7 @@ const Navbar = () => {
             fill={scrolled ? "currentColor" : "none"}
           />
           <span className={scrolled ? "text-sage-900" : "text-white"}>
-            R<span className="text-gold-500">&</span>J
+            I<span className="text-gold-500">&</span>J
           </span>
         </Link>
 

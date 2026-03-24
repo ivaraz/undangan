@@ -12,7 +12,7 @@ const RSVP = () => {
   const { formData, isSubmitted, handleChange, handleSubmit } = useRsvpForm();
 
   return (
-    <Section id="rsvp" className="bg-white">
+    <Section id="rsvp">
       <SectionTitle title={rsvp.title} subtitle={rsvp.subtitle} />
 
       <div className="container mx-auto px-4 max-w-2xl">

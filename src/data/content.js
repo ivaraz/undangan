@@ -1,12 +1,18 @@
 import audioFile from "../assets/bergema.m4a";
+import heroBgUrl from "../assets/wedding_hero_bg.png";
+import gallery1Url from "../assets/gallery_1.png";
+import gallery2Url from "../assets/gallery_2.png";
+import gallery3Url from "../assets/gallery_3.png";
+import gallery4Url from "../assets/gallery_4.png";
+import gallery5Url from "../assets/gallery_5.png";
+import gallery6Url from "../assets/gallery_6.png";
 
 export const content = {
   hero: {
     title: "Ivan & Jennifer",
     subtitle: "Akad Nikah",
     date: "Minggu, 24 Mei 2026",
-    backgroundImage:
-      "https://images.unsplash.com/photo-1519225421980-715cb0202128?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80",
+    backgroundImage: heroBgUrl,
     ctaText: "Simpan Tanggal",
   },
   couple: {
@@ -51,15 +57,12 @@ export const content = {
     title: "Momen Kami",
     subtitle: "Potret perjalanan cinta kami",
     images: [
-      "https://images.unsplash.com/photo-1606216794074-735e91aa2c92?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1520854221256-17451cc330e7?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1591604466107-ec97de577aff?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1511285560982-1356c11d4606?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1595407753234-0882f1e77954?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1529636721198-430c330de595?auto=format&fit=crop&w=800&q=80",
+      gallery1Url,
+      gallery2Url,
+      gallery3Url,
+      gallery4Url,
+      gallery5Url,
+      gallery6Url,
     ],
   },
   map: {

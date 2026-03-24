@@ -14,7 +14,7 @@ const Gallery = () => {
   const column3 = gallery.images.filter((_, i) => i % 3 === 2);
 
   return (
-    <Section id="gallery" className="bg-white">
+    <Section id="gallery" className="pt-28 md:pt-36">
       {/* Background Decorative Elements */}
       <div className="absolute top-0 left-0 w-full h-20 bg-gradient-to-b from-sage-50 to-transparent" />
       <div className="absolute -left-20 top-40 w-72 h-72 bg-gold-100 rounded-full blur-3xl opacity-50" />
@@ -23,7 +23,7 @@ const Gallery = () => {
       <SectionTitle
         title={gallery.title}
         subtitle={gallery.subtitle}
-        icon={Camera}
+        icon={(props) => <Camera {...props} style={{ width: '4rem', height: '4rem' }} />}
       />
 
       {/* Masonry Grid */}

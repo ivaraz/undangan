@@ -8,7 +8,7 @@ const Couple = () => {
   const { couple } = content;
 
   return (
-    <Section id="couple" className="bg-white">
+    <Section id="couple">
       <SectionTitle title={couple.title} subtitle={couple.subtitle} />
 
       <div className="flex flex-col md:flex-row justify-center items-center gap-12 md:gap-24">

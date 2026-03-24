@@ -1,6 +1,8 @@
+import audioFile from "../assets/bergema.m4a";
+
 export const content = {
   hero: {
-    title: "Rifa & Jennifer",
+    title: "Ivan & Jennifer",
     subtitle: "Akad Nikah",
     date: "Minggu, 24 Mei 2026",
     backgroundImage:
@@ -12,7 +14,7 @@ export const content = {
     subtitle:
       "Dengan memohon Ridho Allah SWT, kami bermaksud menyelenggarakan pernikahan putra-putri kami",
     groom: {
-      name: "Rifa",
+      name: "Ivan",
       role: "Mempelai Pria",
       image:
         "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
@@ -76,12 +78,12 @@ export const content = {
     buttonText: "Kirim Konfirmasi",
   },
   footer: {
-    branding: "Rifa & Jennifer",
+    branding: "Ivan & Jennifer",
     message: "Terima kasih telah menjadi bagian dari perjalanan kami.",
     copyright: "© 2026. Dibuat dengan penuh cinta.",
   },
   audio: {
-    url: "https://cdn.pixabay.com/audio/2024/11/28/audio_3a69e8f6cb.mp3",
+    url: audioFile,
     prompt: {
       title: "Selamat Datang",
       message: "Kami memutar musik spesial untuk menemani Anda.",
